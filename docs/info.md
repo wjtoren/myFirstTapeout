@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The ADC compares the input signal to a generated Vdd/2 signal. If input is larger, the new comparison signal will be 3/4*Vdd or othewise 1/4*Vdd. etc. This is done in 8 steps, so 8 bits adc
 
 ## How to test
+Analogue in, is converted, and the output needs to be the same analogue value
 
 Explain how to use your project
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Needs to be developed
